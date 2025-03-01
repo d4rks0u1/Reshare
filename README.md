@@ -25,6 +25,7 @@ This app is designed to enable seamless file sharing over a local network using 
 
 ```sh
 git clone https://github.com/d4rks0u1/Reshare
+pip3 install -r requirements. txt 
 cd Reshare
 ```
 
@@ -40,6 +41,7 @@ The application will run on `http://0.0.0.0:80`.
 
 ```
 project-root/
+|-- requirments.txt
 │-- app.py  # Main Flask application
 │-- templates/
 │   │-- index.html  # Homepage
